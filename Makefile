@@ -9,4 +9,4 @@ build:
 	
 # wildcard — платформонезависимый поиск файлов
 package-install:
-	uv tool install $(wildcard dist/*.whl)
+	uv tool install --force $(wildcard dist/*.whl)
